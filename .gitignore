@@ -36,7 +36,6 @@ npm-debug.log
 /venv/
 virtualenv/
 /virtualenv/
-media/
 /env/
 /output/
 /cache/

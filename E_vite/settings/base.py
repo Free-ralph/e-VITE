@@ -118,7 +118,7 @@ STATIC_ROOT = BASE_DIR / 'static_root'
 STATICFILES_DIRS = [ BASE_DIR / 'frontend/build/static' , ]
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_ROOT = BASE_DIR / 'frontend/build/media'
 
 
 # Default primary key field type
