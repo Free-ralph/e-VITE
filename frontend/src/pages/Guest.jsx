@@ -31,7 +31,7 @@ const Guest = () => {
       const guest = await fetchData('/api/guests', 'GET')
       setguests(guest)
 
-      if (guest.length == 0){
+      if (guest.length === 0){
         setNoGuest(true)
       }else{
         setNoGuest(false)
